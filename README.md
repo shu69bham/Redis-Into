@@ -4,7 +4,9 @@ Introduction to Redis using C#
 Go to RedisInto->Data->WeatherForecastService.cs file to see the actual use of cache.
 
 Also added an extension class DistributedCacheExtension.cs for Setting and Getting data from distributed cache(redis in our case)
+
 Injected the Redis dependencies in Startup.cs
+
 Added ConnectionString for Redis in appsettings.json
 
 # Setting up Redis Container on local machine
