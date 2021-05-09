@@ -9,8 +9,10 @@ Injected the Redis dependencies in Startup.cs
 
 Added ConnectionString for Redis in appsettings.json
 
+For in-depth undertstanding watch the video - https://www.youtube.com/watch?v=UrQWii_kfIE by IAmTimCorey
+
 # Setting up Redis Container on local machine
-Run the following command -
+Run the following command(Make sure you have docker installed on your local machine) -
 
 docker run --name my-redis -p 5002:6379 -d redis
 
